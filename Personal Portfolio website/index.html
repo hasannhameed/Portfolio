@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@400;500&family=Merriweather&family=Poppins:wght@400;700&display=swap"
+        rel="stylesheet">
+    <title>Hasan-Devoloper Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 99px;
+            background-color: rgb(18, 18, 62);
+        }
+
+        .nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        .nav ul li {
+            list-style: none;
+            margin: 0 23px;
+
+        }
+
+        .nav ul li a {
+            text-decoration: none;
+            color: white;
+
+        }
+
+        .nav ul li a:hover {
+            color: rgb(153, 153, 226);
+            font-size: 1.05rem;
+
+        }
+
+        main hr {
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 140px 50px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstsection {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            margin: 23px 0;
+        }
+
+        .firstsection>div {
+            width: 30%;
+        }
+
+        .leftsection {
+            font-size: 3rem;
+        }
+
+        .rightsection img {
+            width: 80%;
+        }
+
+        .purple {
+            color: rgb(167, 167, 251);
+        }
+
+        .text-grey {
+            color: grey;
+        }
+
+        #element {
+            color: rgb(167, 167, 251);
+        }
+
+        .secoundsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 100vh;
+        }
+
+        .secoundsection h1 {
+            font-size: 1.9rem;
+        }
+
+        .secoundsection .box {
+            background: white;
+            width: 77vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secoundsection .box-1 {
+            background: white;
+            width: 77vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+            margin-top: 317px;
+        }
+
+        .secoundsection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 120px;
+        }
+
+        .image-top {
+            width: 30px;
+            position: relative;
+            top: -33px;
+            left: -9px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            color: grey;
+            width: 150px;
+            font-size: 9px;
+        }
+
+        footer {
+            background-color: #0f0f22;
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footerr ul li a {
+            text-decoration:none;
+            list-style: none;
+            color: white;
+        }
+        
+        .footerr ul li a:hover {
+            text-decoration:none;
+            list-style: none;
+            color: rgb(253, 249, 143);
+            font-size: 20px;
+        }
+
+
+        .footerr>div {
+            width: 223px;
+        }
+
+        footer .footer-rigth {
+            text-align: center;
+            color: grey;
+            padding: 50px 0;
+        }
+
+        #btn {
+            margin-right: 20px;
+            padding: 14px;
+            border-radius: 6px;
+            color: white;
+            background-color: purple;
+            border: 2px solid white;
+            font-size: 1rem;
+            ;
+
+        }
+
+        #btn a {
+            text-decoration: none;
+            color: white;
+        }
+
+        #btn:hover {
+            padding: 16px;
+            background-color: rgb(85, 94, 186);
+        }
+
+        .founder {
+            width: 80px;
+            border: 3px solid white;
+            border-radius: 50px;
+            float: left;
+            margin-right: 26px;
+        }
+        .footer-first{
+            display: flex;
+            max-width: 30%;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="nav">
+            <div class="left">Hasan-Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="https://contactmeeee.netlify.app" target="_blank">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">Hi my name is <span class="purple
+                ">Hasan</span>
+                <div>iam a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button id="btn"><a href="https://resumepagee.netlify.app" target="_blank">View Resume</a></button>
+                    <button id="btn"><a href="https://github.com/hasannhameed" target="_blank">Visit Github</a></button>
+                    <button id="btn"><a href="https://infosyscertificates.netlify.app" target="_blank"> View Certificates</a></button>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="dp3.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secoundsection">
+            <span class="text-grey">What i have done so far</span>
+            <h1>Skills</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="c++.png" alt="">
+                    <div class="vertical-title">C++</div>
+                    <div class="vertical-desc">Explore C++ in various applications like gaming and GUI programming. Master math problems, templates, regular expressions, algorithms, and parallel programming in this challenging course.</div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="python.png" alt="">
+                    <div class="vertical-title">Python</div>
+                    <div class="vertical-desc">Discover REST Assured, a powerful tool for automating RESTful web services. Ideal for QA engineers, this course covers setup, HTTP methods, and more, enabling hands-on learning from scratch.</div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="java1.png" alt="">
+                    <div class="vertical-title">Java</div>
+                    <div class="vertical-desc">Discover REST Assured, a potent API automation tool for RESTful web services. Essential for QA engineers, it's quick and stable, with 75% of IT shifting to REST API automation. Explore this course to learn and apply REST API concepts, setup, HTTP methods, authentication, and more.</div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="html.png" alt="">
+                    <div class="vertical-title">HTML</div>
+                    <div class="vertical-desc">HTML (Hypertext Markup Language) is the fundamental language for creating web pages. It uses tags to structure content, making it accessible and visually appealing on browsers worldwide.</div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="css.png" alt="">
+                    <div class="vertical-title">CSS</div>
+                    <div class="vertical-desc">CSS (Cascading Style Sheets) enhances web pages by defining their visual appearance and layout. It styles HTML elements, ensuring a seamless and attractive presentation on the internet.</div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="js.png" alt="">
+                    <div class="vertical-title">JavaScript</div>
+                    <div class="vertical-desc">Develop intuitive web applications by exploring JavaScript features and techniques. Understand function recursion. Explore Immediately Invoked Function [removed]IIFE. Get up to speed with array methods</div>
+                </div>
+            </div>
+            <div class="box-1">
+                <div class="vertical">
+                    <img class="image-top" src="C.png" alt="">
+                    <div class="vertical-title">C</div>
+                    <div class="vertical-desc">C is a powerful and versatile programming language. It's known for its efficiency, portability, and extensive usage in software development, from operating systems to embedded systems and more.</div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="sql.png" alt="">
+                    <div class="vertical-title">MySql</div>
+                    <div class="vertical-desc">MySQL is a popular open-source relational database management system. It's known for its speed, reliability, and versatility, making it a top choice for many web applications and businesses worldwide.</div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="bootstrap.png" alt="">
+                    <div class="vertical-title">Bootstrap</div>
+                    <div class="vertical-desc">Bootstrap is a front-end framework that simplifies web development. It provides pre-designed, responsive components and CSS styles, helping developers create visually appealing, mobile-friendly websites with ease and efficiency.</div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="nodejs.webp" alt="">
+                    <div class="vertical-title">Node JS</div>
+                    <div class="vertical-desc">Node.js is an open-source runtime environment for executing JavaScript outside the browser. It enables server-side scripting, making it ideal for building scalable, real-time applications and APIs with JavaScript.</div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="manbodb.jpg" alt="">
+                    <div class="vertical-title">MongoDB</div>
+                    <div class="vertical-desc">MongoDB is a popular NoSQL database known for its flexibility and scalability. It stores data in JSON-like documents, making it ideal for handling large volumes of unstructured or semi-structured data.</div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="" alt="">
+                    <div class="vertical-title"></div>
+                    <div class="vertical-desc"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <img class="founder" src="m2.webp" alt="hasan">
+                <p><strong>About Me</strong><br>Greetings! I'm Hasan, a dedicated software and web developer with a passion for creating innovative digital solutions. My journey in the tech world has been driven by an insatiable curiosity and a relentless desire to turn ideas into reality.<br>
+                </p>
+            </div>
+            <div class="footerr">
+                <ul >
+                    <li ><i class="fa-brands fa-facebook"></i><a  href="https://www.facebook.com/profile.php?id=100076785231340" target="_blank">  Facebook</a></li>
+                    <li><i class="fa-brands fa-instagram"></i><a href="https://www.instagram.com/_hasannn_07/" target="_blank">  Instagram</a></li>
+                    <li><i class="fa-brands fa-youtube"></i><a href="https://www.youtube.com/channel/UCs3U3X-ooU3_fTBzXXaWXuQ" target="_blank">  Youtube</a></li>
+                    <li><i class="fa-brands fa-linkedin"></i><a href="https://www.linkedin.com/in/mohmad-hasanhameed-3017b1252" target="_blank">  Linkedin</a></li>
+                    <li><i class="fa-brands fa-square-github"></i><a href="https://github.com/hasannhameed" target="_blank">  Github</a></li>
+                </ul>
+            </div>
+            <div class="footerr">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="https://contactmeeee.netlify.app" target="_blank">Contact Me</a></li>
+                </ul>
+            </div>
+            <div class="footerr">
+                <ul>
+                    <li><a href="/">FAQ</a></li>
+                    <li><a href="/">Terms of Use</a></li>
+                    <li><a href="/">Privacy policy</a></li>
+                    <li><a href="/">Contact Us</a></li>
+                    <li><a href="https://animepagee.netlify.app" target="_blank"> Visit our Animepage</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class=" footer-rigth">
+            Copyrights©hasansportfolio.com | all rights are reserved
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web developer.','Java developer.', 'Python developer.','Youtuber.','Video Editor.'],
+            typeSpeed: 60,
+        });
+    </script>
+</body>
+
+</html>
